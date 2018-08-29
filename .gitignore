@@ -1,0 +1,21 @@
+﻿# DataGenerator .gitignore
+
+# 忽略Idea 编译环境产生的配置文件
+/.idea/*
+*.iml
+
+# 忽略cache文件夹
+/cache/*
+/__pycache__/*
+
+# 忽略其他文件
+*.pdf
+
+# 忽略所有 .tmp 文件
+*.tmp
+
+# 忽略测试文件
+test.py
+
+# 当然你要忽略自己也可以，只是通常不会这么做
+# .gitignore
